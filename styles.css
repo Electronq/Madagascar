@@ -42,11 +42,11 @@ body{
     color: white;
 }
 
-img{
+.intro-right > img{
     width: 500px;
     height: auto;
     border-radius: 0.5rem;
-    box-shadow: black 2px;
+    box-shadow: 0 3px 10px rgb(0,0, 0, 0.2);
 }
 
 .intro-right{
@@ -74,3 +74,70 @@ button{
     width: 100%;
     padding-bottom: 100px;
 }
+
+/* --------------------------------------------- */
+
+.upper-middle{
+    padding: 0 20vw 0 20vw;
+}
+
+.image-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 50px;
+    
+}
+
+.card1, .card2, .card3, .card4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card1 > img {
+    width:200px;
+    height: 200px;
+    border-radius: 0.5rem;
+    margin-bottom:10px;
+    object-fit: cover;
+    box-shadow: 0 3px 10px rgb(0,0, 0, 0.2);
+}
+
+.card2 > img {
+    width:200px;
+    height: 200px;
+    border-radius: 0.5rem;
+    margin-bottom:10px;
+    object-fit: cover;
+    box-shadow: 0 3px 10px rgb(0,0, 0, 0.2);
+}
+
+.card3 > img {
+    width:200px;
+    height: 200px;
+    border-radius: 0.5rem;
+    margin-bottom:10px;
+    object-fit: cover;
+    box-shadow: 0 3px 10px rgb(0,0, 0, 0.2);
+}
+
+.card4 > img {
+    width:200px;
+    height: 200px;
+    border-radius: 0.5rem;
+    margin-bottom:10px;
+    object-fit: cover;
+    box-shadow: 0 3px 10px rgb(0,0, 0, 0.2);
+}
+
+.subtitle{
+    padding-top: 50px;
+    padding-bottom:50px;
+    text-align: center;
+    font-size: 36px;
+    font-weight:900;
+    color:rgb(58, 56, 56);
+}
+
+
